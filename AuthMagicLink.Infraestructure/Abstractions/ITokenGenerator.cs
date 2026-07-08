@@ -4,5 +4,5 @@ namespace AuthMagicLink.Infra.Abstractions;
 
 public interface ITokenGenerator
 {
-    string GenerateToken();
+    string Generate();
 }
