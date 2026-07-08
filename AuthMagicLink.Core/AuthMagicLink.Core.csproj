@@ -4,11 +4,6 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>AuthMagicLink.Infra</RootNamespace>
     </PropertyGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\AuthMagicLink.Core\AuthMagicLink.Core.csproj" />
-    </ItemGroup>
 
 </Project>

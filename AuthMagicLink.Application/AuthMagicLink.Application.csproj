@@ -1,17 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
-        <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\AuthMagicLink.Application\AuthMagicLink.Application.csproj" />
       <ProjectReference Include="..\AuthMagicLink.Core\AuthMagicLink.Core.csproj" />
       <ProjectReference Include="..\AuthMagicLink.Infraestructure\AuthMagicLink.Infraestructure.csproj" />
     </ItemGroup>
